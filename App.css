@@ -1,0 +1,236 @@
+/* Container for login form */
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* Error message in login */
+.login-error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Submit button */
+.button-full {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-full:hover {
+  background-color: #45a049;
+}
+
+/* Courses container */
+.courses-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Course list */
+.course-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.course-list li {
+  margin-bottom: 10px;
+}
+
+/* Course content container */
+.course-content-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Back button */
+.back-button {
+  margin-bottom: 20px;
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Content list */
+.content-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content-list li {
+  margin-bottom: 8px;
+}
+
+.content-button {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+  color: black;
+}
+
+.content-button.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Quiz container */
+.quiz-container {
+  margin-top: 20px;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Quiz question */
+.quiz-question {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Quiz option label */
+.quiz-option {
+  display: block;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+
+/* Submit quiz button */
+.submit-quiz-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-quiz-button:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+.submit-quiz-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+/* Admin panel container */
+.admin-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Admin logout button */
+.admin-logout-button {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #e53935;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-logout-button:hover {
+  background-color: #b71c1c;
+}
+
+/* Results table */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+nav button:hover {
+  background-color: white;
+  color: #282c34;
+}
